@@ -3,38 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Pokedex</title>
 </head>
 <body>
-    
-    <h1>Pokedex</h1>
-    <div class="pokemonContainer" id="pokeContainer">
-
-
-   <!--     <div class="pokemon">
-            <div class="imgContainer">
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"  alt="nome">   
-            </div>
-            <div class="info">
-                <span class="number">#1</span>
-                <h3 class="name">Charmander</h3>
-                <small class="type">type: <span>Fogo</span></small>
-            </div> -->
-    
-    
-            
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre min</a>
+        <div class="barraBuscar">
+        <input class="barraTexto" type="text" id="entrada" placeholder="Digite o pokémon...">
+        <button class="botaoPequisar" onclick="buscar()">Pesquisar</button>
         </div>
-    
-    
-            
-    
+        </nav>
+        
+        
+    </header>
+
+    <div class="titulo">
+        <img class="imagemPokedex" src="assents/pokedex.png" alt="uma pokedex">
+        <h1>Pokedex</h1>
     </div>
 
+    <div class="botoes" id="resultado"></div>
+    
+    
+    <div class="pokemonContainer" id="pokeContainer"></div>
 
     
     
-    <script src="./app.js"> </script>
+    
+    
+     <script src="app.js"> </script>
 
     
 </body>
