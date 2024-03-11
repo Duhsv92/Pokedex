@@ -16,26 +16,45 @@ body {
 }
 
 .cabecalho {
-    padding: 8px;
+    padding: 6px;
     display: flex;
     background-color: #FFBB64;
     justify-content: flex-start; 
     align-items: center;
-    width: 100%;
+    width: auto;
+}
+
+.imgRedesocial{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 .imagemGitHub {
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
     position: relative;
     left: 20px;
+    justify-content: space-between;
+}
+
+.imagemLinkedin{
+    width: 33px;
+    height: 33px;
+    left: 30px;
+    position: relative;
 }
 
 
 
 .cabecalho__menu {
     display: flex;
-    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+
    
 
 }
@@ -52,12 +71,6 @@ body {
     padding-left: 20px;
     
 }
-
-.apresentacao__links__navegacao{
-    display: flex;
-    flex-direction: row;
-}
-
 
 
 .cabecalho__menu__link:hover{
@@ -79,7 +92,7 @@ body {
 }
 
 .barraHeader{
-    padding-left: 850px;
+    padding-left: 700px;
 }
 
 .botaoPequisar{
@@ -246,7 +259,25 @@ p{
      }
 
      .imagemGitHub{
-        padding: 10px;
-        padding-right: 120px;
+        padding: 5px;
+        position: relative;
+        left: 1px;
+    
+        
      }
+
+     .imgRedesocial{
+        align-items: center;
+
+
+     }
+
+     .imagemLinkedin{
+        position: relative;
+        left: 5%;
+        padding-top: 5px;
+
+     }
+
+    
 }
