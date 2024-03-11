@@ -259,7 +259,7 @@ p{
      }
 
      .imagemGitHub{
-        padding: 5px;
+        padding-top: 4px;
         position: relative;
         left: 1px;
     
@@ -268,6 +268,7 @@ p{
 
      .imgRedesocial{
         align-items: center;
+        justify-content: space-between;
 
 
      }
