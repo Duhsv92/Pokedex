@@ -17,12 +17,21 @@ body {
 
 .cabecalho {
     padding: 8px;
+    display: flex;
     background-color: #FFBB64;
+    justify-content: flex-start; 
     align-items: center;
-    
-   
-    
+    width: 100%;
 }
+
+.imagemGitHub {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 20px;
+}
+
+
 
 .cabecalho__menu {
     display: flex;
@@ -33,17 +42,23 @@ body {
 
 .cabecalho__menu__link {
     display: flex;
-    flex-direction: initial;
+    flex-direction: row;
     text-decoration: none;
-    font-weight: 600;
     font-size: 1.5rem;
     color: black;
     font-family: "Anta", sans-serif;
     font-weight: 800;
     font-style: normal;
-
+    padding-left: 20px;
     
 }
+
+.apresentacao__links__navegacao{
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 .cabecalho__menu__link:hover{
     color: #FF6868;
@@ -51,13 +66,20 @@ body {
 
 .barraBuscar {
     display: flex;
-    padding-left: 850px;
+    justify-items: center;
+    gap: 10px;
+    padding-left: 840px;
 }
 
 .barraTexto{
     border: solid 2px black;
     font-family: "Anta", sans-serif;
+    padding-right: 20px;
     
+}
+
+.barraHeader{
+    padding-left: 850px;
 }
 
 .botaoPequisar{
@@ -113,6 +135,7 @@ p{
     text-align: center;
     font-size: 1.5rem;
     width: 50%;
+    padding-bottom: 20px;
 }
 
 
@@ -185,4 +208,45 @@ p{
 
 .btAP:hover{
     color: #FF6868;
+}
+
+.rodape{
+    display: flex;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    margin-bottom: 20px;
+
+}
+
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+ }
+     .cabecalho__menu {
+         justify-content: column;
+ 
+     }
+     
+     .barraBuscar{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        padding-right: 810px;
+        padding: 20px;
+        
+     }
+
+     .barraTexto {
+        flex-direction: column;
+        justify-content: column;
+    
+     }
+
+     .imagemGitHub{
+        padding: 10px;
+        padding-right: 120px;
+     }
 }

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Krona+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right,#d4d3dd, #efefbb);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabecalho {
+    padding: 8px;
+    display: flex;
+    background-color: #FFBB64;
+    justify-content: flex-start; 
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho__menu__link {
+    display: flex;
+    flex-direction: initial;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: black;
+    font-family: "Anta", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    left: 70px;
+    position: relative;
+    
+}
+
+.cabecalho__menu__link:hover{
+    color: #FF6868;
+}
+
+
+
+.imagemPokedex{
+    width: 35px;
+    height: 35px;
+}
+
+.corpo__pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    }
+
+h1 {
+    align-items: center;
+    letter-spacing: 5px;
+    font-family: "Anta", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+h2 {
+    letter-spacing: 5px;
+    font-family: "Anta", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+
+}
+
+p{
+    font-family: "Anta", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 50%;
+
+}
+
+.imagemPokedexC{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 20px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
